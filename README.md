@@ -1,8 +1,14 @@
 # Shell
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5.
+This project was generated with Angular version 15.1.5
 
-## Development server
+## Set-up for development
+
+### `.nvmrc` file
+
+This project uses `nvmrc` to make ensure the same version of Node is used for tooling. Make sure your Node version is the same as the version description in the `.nvmrc` file or in the `package.json`'s `"engines"` object.
+
+### Run locally
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
