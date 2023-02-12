@@ -8,9 +8,13 @@ This project was generated with Angular version 15.1.5
 
 This project uses `nvmrc` to make ensure the same version of Node is used for tooling. Make sure your Node version is the same as the version description in the `.nvmrc` file or in the `package.json`'s `"engines"` object.
 
+### Install dependancies
+
+Run `npm install --save-exact` to install dependancies.
+
 ### Run locally
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `npm run start` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
@@ -18,11 +22,13 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `npm run build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `npm run test` to execute the unit tests.
+
+Run `npm run test:coverage` to generate coverage of the unit tests and open `./test-results/coverage/index.html` in a browser to see the coverage.
 
 ## Running end-to-end tests
 
