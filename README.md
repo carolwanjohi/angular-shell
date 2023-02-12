@@ -12,6 +12,10 @@ This project uses `nvmrc` to make ensure the same version of Node is used for to
 
 Run `npm install --save-exact` to install dependancies.
 
+### Set up Husky dependancies
+
+Run `npm run prepare` to install Husky.
+
 ### Run locally
 
 Run `npm run start` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.

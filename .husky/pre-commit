@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npm run format && node_modules/.bin/lint-staged --concurrent 4 --relative

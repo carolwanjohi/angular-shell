@@ -1,0 +1,5 @@
+dist/
+karma.conf.js
+LICENSE
+test-retults/
+.angular/
