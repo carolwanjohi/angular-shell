@@ -43,3 +43,6 @@ Thumbs.db
 
 # Tests
 test-results/
+
+# Personal docs
+documentation/
